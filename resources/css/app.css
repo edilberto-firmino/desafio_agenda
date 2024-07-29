@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ajustes específicos para a coluna de ações */
+.text-xs {
+    font-size: 0.875rem; /* Tamanho de fonte para text-xs */
+}
+
+/* Estilos para os links e botões de ação */
+.inline-block {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.bg-gray-200 {
+    background-color: #edf2f7; /* Cor de fundo para os links */
+    color: #4a5568; /* Cor do texto para os links */
+}
+
+.bg-yellow-500 {
+    background-color: #f59e0b; /* Cor de fundo para os botões de editar */
+    color: #ffffff; /* Cor do texto para os botões de editar */
+}
+
+.bg-red-500 {
+    background-color: #e53e3e; /* Cor de fundo para os botões de apagar */
+    color: #ffffff; /* Cor do texto para os botões de apagar */
+}
